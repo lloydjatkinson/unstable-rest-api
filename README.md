@@ -10,13 +10,6 @@ This API returns fake data ([Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ip
 
 The API currently returns these HTTP status codes:
 
-* 200 OK - The API was successful and returns the lorem ipsum text
-* 202 Accepted
-* 400 Bad Request
-* 500 Internal Server Error
-
-Probability of each HTTP status code:
-
 | HTTP Status Code          | Body                             | Probability |
 |---------------------------|----------------------------------|-------------|
 | 200 OK                    | JSON containing lorem ipsum text | 60%         |
