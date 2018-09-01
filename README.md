@@ -4,6 +4,8 @@ Intentionally unstable REST API (Azure Function)
 
 http://unstable-rest-api.azurewebsites.net/api/lorem
 
+----
+
 This API returns fake data ([Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum)) but with a twist. It is unstable in order to aid in the design/testing of API error handling code.
 
 The API currently returns these HTTP status codes:
