@@ -13,7 +13,7 @@ namespace UnstableRestApi
     public static class LoremIpsum
     {
         [FunctionName("loremipsum")]
-        public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]HttpRequest req, ILogger log)
+        public static async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequest req, ILogger log)
         {
             log.LogInformation($"{nameof(LoremIpsum)} function triggered.");
             await RandomDelayHelper.DelayRandomly(3);
